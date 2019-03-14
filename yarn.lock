@@ -72,9 +72,9 @@
     "@babel/traverse" "^7.1.0"
     "@babel/types" "^7.0.0"
 
-"@babel/helper-create-class-features-plugin@^7.3.4":
+"@babel/helper-create-className-features-plugin@^7.3.4":
   version "7.3.4"
-  resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.3.4.tgz#092711a7a3ad8ea34de3e541644c2ce6af1f6f0c"
+  resolved "https://registry.yarnpkg.com/@babel/helper-create-className-features-plugin/-/helper-create-className-features-plugin-7.3.4.tgz#092711a7a3ad8ea34de3e541644c2ce6af1f6f0c"
   integrity sha512-uFpzw6L2omjibjxa8VGZsJUPL5wJH0zzGKpoz0ccBkzIa6C8kWNUbiBmQ0rgOKWlHJ6qzmfa6lTiGchiV8SC+g==
   dependencies:
     "@babel/helper-function-name" "^7.1.0"
@@ -247,12 +247,12 @@
     "@babel/helper-remap-async-to-generator" "^7.1.0"
     "@babel/plugin-syntax-async-generators" "^7.2.0"
 
-"@babel/plugin-proposal-class-properties@^7.0.0":
+"@babel/plugin-proposal-className-properties@^7.0.0":
   version "7.3.4"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.3.4.tgz#410f5173b3dc45939f9ab30ca26684d72901405e"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-className-properties/-/plugin-proposal-className-properties-7.3.4.tgz#410f5173b3dc45939f9ab30ca26684d72901405e"
   integrity sha512-lUf8D3HLs4yYlAo8zjuneLvfxN7qfKv1Yzbj5vjqaqMJxgJA3Ipwp4VUJ+OrOdz53Wbww6ahwB8UhB2HQyLotA==
   dependencies:
-    "@babel/helper-create-class-features-plugin" "^7.3.4"
+    "@babel/helper-create-className-features-plugin" "^7.3.4"
     "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-proposal-json-strings@^7.2.0":
@@ -295,9 +295,9 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-syntax-class-properties@^7.0.0":
+"@babel/plugin-syntax-className-properties@^7.0.0":
   version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.2.0.tgz#23b3b7b9bcdabd73672a9149f728cd3be6214812"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-className-properties/-/plugin-syntax-className-properties-7.2.0.tgz#23b3b7b9bcdabd73672a9149f728cd3be6214812"
   integrity sha512-UxYaGXYQ7rrKJS/PxIKRkv3exi05oH7rokBAsmCSsCxz1sVPZ7Fu6FzKoGgUvmY+0YgSkYHgUoCh5R5bCNBQlw==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
@@ -375,9 +375,9 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     lodash "^4.17.11"
 
-"@babel/plugin-transform-classes@^7.0.0", "@babel/plugin-transform-classes@^7.3.4":
+"@babel/plugin-transform-classNamees@^7.0.0", "@babel/plugin-transform-classNamees@^7.3.4":
   version "7.3.4"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-classes/-/plugin-transform-classes-7.3.4.tgz#dc173cb999c6c5297e0b5f2277fdaaec3739d0cc"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-classNamees/-/plugin-transform-classNamees-7.3.4.tgz#dc173cb999c6c5297e0b5f2277fdaaec3739d0cc"
   integrity sha512-J9fAvCFBkXEvBimgYxCjvaVDzL6thk0j0dBvCeZmIUDBwyt+nv6HfbImsSrWsYXfDNDivyANgJlFXDUWRTZBuA==
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.0.0"
@@ -658,7 +658,7 @@
     "@babel/plugin-transform-async-to-generator" "^7.3.4"
     "@babel/plugin-transform-block-scoped-functions" "^7.2.0"
     "@babel/plugin-transform-block-scoping" "^7.3.4"
-    "@babel/plugin-transform-classes" "^7.3.4"
+    "@babel/plugin-transform-classNamees" "^7.3.4"
     "@babel/plugin-transform-computed-properties" "^7.2.0"
     "@babel/plugin-transform-destructuring" "^7.2.0"
     "@babel/plugin-transform-dotall-regex" "^7.2.0"
@@ -1503,16 +1503,16 @@ babel-preset-fbjs@^3.1.2:
   resolved "https://registry.yarnpkg.com/babel-preset-fbjs/-/babel-preset-fbjs-3.2.0.tgz#c0e6347d3e0379ed84b3c2434d3467567aa05297"
   integrity sha512-5Jo+JeWiVz2wHUUyAlvb/sSYnXNig9r+HqGAOSfh5Fzxp7SnAaR/tEGRJ1ZX7C77kfk82658w6R5Z+uPATTD9g==
   dependencies:
-    "@babel/plugin-proposal-class-properties" "^7.0.0"
+    "@babel/plugin-proposal-className-properties" "^7.0.0"
     "@babel/plugin-proposal-object-rest-spread" "^7.0.0"
-    "@babel/plugin-syntax-class-properties" "^7.0.0"
+    "@babel/plugin-syntax-className-properties" "^7.0.0"
     "@babel/plugin-syntax-flow" "^7.0.0"
     "@babel/plugin-syntax-jsx" "^7.0.0"
     "@babel/plugin-syntax-object-rest-spread" "^7.0.0"
     "@babel/plugin-transform-arrow-functions" "^7.0.0"
     "@babel/plugin-transform-block-scoped-functions" "^7.0.0"
     "@babel/plugin-transform-block-scoping" "^7.0.0"
-    "@babel/plugin-transform-classes" "^7.0.0"
+    "@babel/plugin-transform-classNamees" "^7.0.0"
     "@babel/plugin-transform-computed-properties" "^7.0.0"
     "@babel/plugin-transform-destructuring" "^7.0.0"
     "@babel/plugin-transform-flow-strip-types" "^7.0.0"
@@ -1536,7 +1536,7 @@ babel-preset-gatsby@^0.1.9:
   resolved "https://registry.yarnpkg.com/babel-preset-gatsby/-/babel-preset-gatsby-0.1.9.tgz#b308b983e446cc1e84ad125dbaeb83326b2b3dcb"
   integrity sha512-pXDuxw4XUUcWM7TejB3mTOP4FvADc8sQsJ7aaU2eG+aeI1CRn5jVIAKxoQwL0yI7Pr/n4USTAiiuix8BDrStKA==
   dependencies:
-    "@babel/plugin-proposal-class-properties" "^7.0.0"
+    "@babel/plugin-proposal-className-properties" "^7.0.0"
     "@babel/plugin-syntax-dynamic-import" "^7.0.0"
     "@babel/plugin-transform-runtime" "^7.0.0"
     "@babel/preset-env" "^7.0.0"
@@ -1587,7 +1587,7 @@ base@^0.11.1:
   integrity sha512-5T6P4xPgpp0YDFvSWwEZ4NoE3aM4QBQXDzmVbraCkFj8zHM+mba8SyqB5DbZWyR7mYHo6Y7BdQo3MoA4m0TeQg==
   dependencies:
     cache-base "^1.0.1"
-    class-utils "^0.3.5"
+    className-utils "^0.3.5"
     component-emitter "^1.2.1"
     define-property "^1.0.0"
     isobject "^3.0.1"
@@ -2224,9 +2224,9 @@ clap@^1.0.9:
   dependencies:
     chalk "^1.1.3"
 
-class-utils@^0.3.5:
+className-utils@^0.3.5:
   version "0.3.6"
-  resolved "https://registry.yarnpkg.com/class-utils/-/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
+  resolved "https://registry.yarnpkg.com/className-utils/-/className-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
   integrity sha512-qOhPa/Fj7s6TY8H8esGu5QNpMMQxz79h+urzrNYN6mn+9BnxlDGf5QZ+XeCDsxSjPqsSR56XOZOJmpeurnLMeg==
   dependencies:
     arr-union "^3.1.0"
@@ -2599,9 +2599,9 @@ create-ecdh@^4.0.0:
     bn.js "^4.1.0"
     elliptic "^6.0.0"
 
-create-error-class@^3.0.0:
+create-error-className@^3.0.0:
   version "3.0.2"
-  resolved "https://registry.yarnpkg.com/create-error-class/-/create-error-class-3.0.2.tgz#06be7abef947a3f14a30fd610671d401bca8b7b6"
+  resolved "https://registry.yarnpkg.com/create-error-className/-/create-error-className-3.0.2.tgz#06be7abef947a3f14a30fd610671d401bca8b7b6"
   integrity sha1-Br56vvlHo/FKMP1hBnHUAbyot7Y=
   dependencies:
     capture-stack-trace "^1.0.0"
@@ -3894,7 +3894,7 @@ expand-brackets@^2.1.4:
     debug "^2.3.3"
     define-property "^0.2.5"
     extend-shallow "^2.0.1"
-    posix-character-classes "^0.1.0"
+    posix-character-classNamees "^0.1.0"
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
@@ -4908,7 +4908,7 @@ got@^6.7.1:
   resolved "https://registry.yarnpkg.com/got/-/got-6.7.1.tgz#240cd05785a9a18e561dc1b44b41c763ef1e8db0"
   integrity sha1-JAzQV4WpoY5WHcG0S0HHY+8ejbA=
   dependencies:
-    create-error-class "^3.0.0"
+    create-error-className "^3.0.0"
     duplexer3 "^0.1.4"
     get-stream "^3.0.0"
     is-redirect "^1.0.0"
@@ -7857,9 +7857,9 @@ portfinder@^1.0.9:
     debug "^2.2.0"
     mkdirp "0.5.x"
 
-posix-character-classes@^0.1.0:
+posix-character-classNamees@^0.1.0:
   version "0.1.1"
-  resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
+  resolved "https://registry.yarnpkg.com/posix-character-classNamees/-/posix-character-classNamees-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
 
 postcss-calc@^7.0.1:
