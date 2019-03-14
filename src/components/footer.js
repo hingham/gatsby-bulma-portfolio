@@ -1,7 +1,7 @@
 import React from "react"
 
 
-const Footer = class extends React.Component {
+class Footer extends React.Component {
   render() {
     return (
       <footer classNameName="footer">
@@ -12,7 +12,7 @@ const Footer = class extends React.Component {
             <div className="has-text-centered">
                 hannah.c.ingham@gmail.com | 360-296-3167
             </div>
-            <div> {"\u00A9"} Hannah Ingham </div>
+            <div className="has-text-centered"> {"\u00A9"} Hannah Ingham </div>
         </div>
       </footer>
     )

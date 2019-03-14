@@ -7,7 +7,7 @@ class Nav extends React.Component {
     super(props)
     this.state = {
       active: false,
-      navBarActiveclassName: "",
+      navBarActiveClass: "",
     }
   }
 
@@ -19,13 +19,13 @@ class Nav extends React.Component {
       },
       // after state has been updated,
       () => {
-        // set the className in state for the navbar accordingly
+        // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveclassName: "is-active",
+              navBarActiveClass: "is-active",
             })
           : this.setState({
-              navBarActiveclassName: "",
+              navBarActiveClass: "",
             })
       }
     )
@@ -34,14 +34,14 @@ class Nav extends React.Component {
   render() {
     return (
       <nav
-        classNameName="navbar is-transparent"
+        className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
       >
-        <div classNameName="navbar-brand">
+        <div className="navbar-brand">
           {/* Hamburger menu */}
           <div
-            classNameName={`navbar-burger burger ${this.state.navBarActiveclassName}`}
+            className={`navbar-burger burger ${this.state.navBarActiveClass}`}
             data-target="navMenu"
             onClick={() => this.toggleHamburger()}
           >
@@ -52,29 +52,29 @@ class Nav extends React.Component {
         </div>
         <div
           id="navMenu"
-          classNameName={`navbar-menu ${this.state.navBarActiveclassName}`}
+          className={`navbar-menu ${this.state.navBarActiveClass}`}
         >
-          <div classNameName="navbar-start has-text-centered">
-            <Link classNameName="navbar-item" to="/">
+          <div className="navbar-start has-text-centered">
+            <Link className="navbar-item" to="/">
               Home
             </Link>
-            <Link classNameName="navbar-item" to="/about">
+            <Link className="navbar-item" to="/about">
               About
             </Link>
-            <Link classNameName="navbar-item" to="/projects">
+            <Link className="navbar-item" to="/projects">
               Projects
             </Link>
           </div>
         </div>
-        <div className="navbar-end">
-          <div className="navbar-item">
+        <div class="navbar-end">
+          <div class="navbar-item">
             <a
-              classNameName="navbar-item"
+              className="navbar-item"
               href="https://github.com/hingham/portfolio"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span classNameName="icon">
+              <span className="icon">
                 <img src={github} alt="Github" style={{ width: "2em" }} />
               </span>
             </a>{" "}
