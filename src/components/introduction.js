@@ -1,13 +1,13 @@
 import React from 'react'
-import Me from '../images/me.jpg'
+import Me from '../images/profile-distance.jpg'
 
 const Introduction = props => {
   return (
     <section className="section has-background-primary has-text-white" style={{height: "100%"}}>
       <div className="has-text-centered">
       <div className="is-size-3">Hello!</div>
-      <div className="is-size-4">I'm Hannah</div>
-        <img alt="Hannah Ingham" src={Me} style={{width: '100px', borderRadius: '200px'}}/>
+      <div className="is-size-4">I'm Hannah.</div>
+        <img alt="Hannah Ingham" src={Me} style={{width: '150px', borderRadius: '200px', marginTop: "20px"}}/>
         </div>
         <div style={{padding: "1em"}}>
         <p >
