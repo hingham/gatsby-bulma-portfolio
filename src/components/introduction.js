@@ -11,11 +11,11 @@ const Introduction = props => {
         </div>
         <div style={{padding: "1em"}}>
         <p >
-        Former high school math teacher, now JavaScript developer. With a masters degree in teaching a technical certificate from CodeFellow's Advanced Full Stack JavaScript course I bring experience, vision, and enthusiam.     
+        Former high school math teacher, now JavaScript developer. Offer diverse experience, vision, and enthusiam. Enjoy working on collaborative teams to build beautifully functional websites.      
         </p>
         <br></br>
         <p >
-        Currently looking for opportunities where I feel I can be part of a larger effort to support students and teachers.
+        Currently looking seeking job opportunties to build out websites to serve clients, companies, and communities.
         </p>
     
         </div>
