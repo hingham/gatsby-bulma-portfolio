@@ -3,7 +3,7 @@ layout: blog
 templateKey: post
 title: "National Parks Framework"
 date: 1999-12-31 11:59:59 -0800
-image: "national-parks-1.png"
+image: "national-park-app-img.png"
 link: "https://github.com/hingham/national-park-app"
 rating: 5
 tools: ReactNative Redux Superagent

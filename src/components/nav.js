@@ -40,6 +40,16 @@ class Nav extends React.Component {
       >
         <div className="navbar-brand">
           {/* Hamburger menu */}
+          <a
+              className="navbar-item"
+              href="https://github.com/hingham/portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="icon">
+                <img src={github} alt="Github" style={{ width: "2em" }} />
+              </span>
+            </a>{" "}
           <div
             className={`navbar-burger burger ${this.state.navBarActiveClass}`}
             data-target="navMenu"
@@ -66,9 +76,9 @@ class Nav extends React.Component {
             </Link>
           </div>
         </div>
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <a
+        <div className="navbar-end">
+          <div className="navbar-item">
+            {/* <a
               className="navbar-item"
               href="https://github.com/hingham/portfolio"
               target="_blank"
@@ -77,7 +87,7 @@ class Nav extends React.Component {
               <span className="icon">
                 <img src={github} alt="Github" style={{ width: "2em" }} />
               </span>
-            </a>{" "}
+            </a>{" "} */}
           </div>
         </div>
       </nav>

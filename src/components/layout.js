@@ -16,6 +16,7 @@ import Introduction from "./introduction.js"
 import Footer from "./footer.js"
 import "./layout.css"
 import "./styles/all.sass"
+import "./styles/base.sass"
 
 
 const Layout = ({ children }) => (

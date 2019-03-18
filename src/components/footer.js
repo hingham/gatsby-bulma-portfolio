@@ -4,8 +4,8 @@ import React from "react"
 class Footer extends React.Component {
   render() {
     return (
-      <footer classNameName="footer">
-        <div classNameName="content has-text-centered">
+      <footer className="footer" >
+        <div className="content has-text-centered">
           <div className="has-text-centered">
                 <strong> Contact: </strong>
             </div>
