@@ -8,9 +8,11 @@ const CardList = props => {
         return (
           <Card key={{i}}
             title={project.node.frontmatter.title}
-            content={project.node.excerpt}
+            content={project.node.rawMarkdownBody}
             image={project.node.frontmatter.image}
             link={project.node.frontmatter.link}
+            frontend={project.node.frontmatter.frontend}
+            backend={project.node.frontmatter.backend}
             tools={project.node.frontmatter.tools}
           />
         )

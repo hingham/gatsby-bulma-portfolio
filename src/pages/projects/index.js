@@ -20,15 +20,18 @@ const About = props => {
 
 export const query = graphql`
   query projectsQuery {
-    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/project/" } }) {
+    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/project/" } }
+    sort: {order: ASC, fields: frontmatter___title}) {
       edges {
         node {
-          excerpt(pruneLength: 450)
+          rawMarkdownBody
           frontmatter {
             title
             link
             image
             tools
+            frontend
+            backend
           }
         }
       }
