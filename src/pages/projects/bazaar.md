@@ -5,7 +5,7 @@ title: "Bazaar E-Commerce Framework"
 date: 1999-12-31 11:59:59 -0800
 image: "bazaar-1.png"
 link: "https://github.com/bazaar-fellows"
-frontend: "https://github.com/bazaar-fellows/base/tree/file-scaffold"
+frontend: "https://5ca174be82536db3486bf088--musing-booth-d0c01e.netlify.com/"
 backend: "https://bazaarapi.herokuapp.com/graphql"
 rating: 5
 tools: Gatsby React Redux ApolloServer ApolloClient GraphQL MongoDB Paypal
