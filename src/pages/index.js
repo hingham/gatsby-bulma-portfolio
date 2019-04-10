@@ -6,11 +6,9 @@ import "../components/styles/base.sass"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <section className="section background-image" style={{height:"100%"}}>
-    <div className="has-text-centered" >
-      
-    </div>
+    <SEO title="Home" keywords={[`gatsby`, `portfolio`, `react`, `hannah ingham`]} />
+    <section className="section background-image" style={{ height: "100%" }}>
+      <div className="has-text-centered" />
     </section>
   </Layout>
 )
