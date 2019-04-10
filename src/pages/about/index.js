@@ -1,8 +1,7 @@
 import React from "react"
 import Layout from "../../components/layout"
 import ContentCard from "../../components/content-card.js"
-import resumePageOne from "../../images/resume-page-1.png"
-import resumePageTwo from "../../images/resume-page-2.png"
+import resume from "../../images/resume.png"
 
 const Projects = props => {
   return (
@@ -70,17 +69,11 @@ const Projects = props => {
               target="_blank"
               href="https://drive.google.com/file/d/1ZP1L4uA8LY9OqCAOhQVgzDEJ3a85-sE8/view?usp=sharing"
             >
-          <div className="card-image columns" style={{margin: "0 1em"}}>
-           
-              <figure class="image column is-one-half">
-                <img
-                  src={resumePageOne}
-                  style={{ border: "2px solid lightGray" }}
-                />
-              </figure>
+          <div className="card-image" style={{margin: "0 1em"}}>
+      
               <figure class="image column">
                 <img
-                  src={resumePageTwo}
+                  src={resume}
                   style={{ border: "2px solid lightGray" }}
                 />
               </figure>
