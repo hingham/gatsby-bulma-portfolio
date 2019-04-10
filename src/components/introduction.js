@@ -25,8 +25,7 @@ const Introduction = props => {
         </p>
         <br />
         <p>
-          Currently looking seeking job opportunties to build out websites to
-          serve clients, companies, and communities.
+          Currently looking seeking full time in web development.
         </p>
       </div>
     </section>
