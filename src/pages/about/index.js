@@ -20,14 +20,11 @@ const Projects = props => {
         image="me.jpg"
       />
 
-      <section className="section">
+      <div className="card" style={{marginBottom: "3em"}}>
         <div className="has-text-centered">
-          <h3
-            className="is-size-4 has-text-weight-semibold"
-            style={{ margin: "1em" }}
-          >
-            Technologies:
-          </h3>
+        <div class="card-header has-text-centered">
+            <div class="card-header-title is-centered">Technologies</div>
+          </div>
         </div>
         <div className="columns has-text-centered">
           <div className="column is-one-third">
@@ -59,8 +56,8 @@ const Projects = props => {
             </ul>
           </div>
         </div>
-      </section>
-      <section>
+      </div>
+      
         <div class="card">
           <div class="card-header has-text-centered">
             <div class="card-header-title is-centered">Resume</div>
@@ -74,14 +71,13 @@ const Projects = props => {
               <figure class="image column">
                 <img
                   src={resume}
-                  style={{ border: "2px solid lightGray" }}
+                  style={{ border: "2px solid lightGray", width:"700px", margin:"auto" }}
                 />
               </figure>
             
           </div>
           </a>
         </div>
-      </section>
     </Layout>
   )
 }
